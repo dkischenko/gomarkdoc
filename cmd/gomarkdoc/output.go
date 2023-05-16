@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/princjef/gomarkdoc"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/dkischenko/gomarkdoc"
+	"github.com/dkischenko/gomarkdoc/lang"
+	"github.com/dkischenko/gomarkdoc/logger"
 )
 
 func writeOutput(specs []*PackageSpec, opts commandOptions) error {
